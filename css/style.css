@@ -5,7 +5,7 @@ body {
   background-color: #20202d;
   margin: 0;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .container {
   max-width: 945px;
@@ -80,7 +80,7 @@ body {
   height: 389px;
   background-color: #fff;
   border-radius: 50%;
-  background-image: url("/img/avatar.JPG");
+  background-image: url('/img/avatar.JPG');
   background-position: left -250px top -250px;
   border: 13px solid #fff;
 }
@@ -114,6 +114,76 @@ body {
   font-size: 16px;
   line-height: 28px;
   margin: 0;
+}
+/* Projects */
+
+.projects {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+.projects-slide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.project-text {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-title {
+  flex-basis: 100%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 41px;
+}
+.project-time,
+.project-cost {
+  flex-basis: 50%;
+  margin-bottom: 44px;
+}
+.project-time,
+.project-cost,
+.project-feedback {
+  display: flex;
+  align-items: flex-start;
+}
+.project-subtitle {
+  margin: 0;
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+.project-paragraph {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.project-icon {
+  margin-right: 16px;
+}
+.projects-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+.projects-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffbb01;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+.projects-bullet:hover {
+  cursor: pointer;
+}
+.projects-bullet-active {
+  background-color: #ffbb01;
 }
 /* Contacts */
 
@@ -149,13 +219,13 @@ body {
 }
 .input-name {
   margin-bottom: 17px;
-  background-image: url("../img/form-icons/user-icon.svg");
+  background-image: url('../img/form-icons/user-icon.svg');
   background-repeat: no-repeat;
   background-position: center left 20px;
 }
 .input-phone {
   margin-bottom: 17px;
-  background-image: url("../img/form-icons/phone-icon.svg");
+  background-image: url('../img/form-icons/phone-icon.svg');
   background-repeat: no-repeat;
   background-position: center left 20px;
 }
