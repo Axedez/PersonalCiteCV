@@ -185,6 +185,12 @@ body {
 .projects-bullet-active {
   background-color: #ffbb01;
 }
+.project-image {
+  max-width: 350px;
+  max-height: 350px;
+  border: 1px solid #ffbb01;
+  border-radius: 3%;
+}
 /* Contacts */
 
 .contacts-form {
