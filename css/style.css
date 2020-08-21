@@ -85,7 +85,9 @@ body {
   background-color: #fff;
   border-radius: 50%;
   background-image: url('/img/avatar.JPG');
-  background-position: left -250px top -250px;
+  background-size: 120%;
+  background-position: left -70px top -100px;
+
   border: 13px solid #fff;
 }
 /* features */
@@ -292,6 +294,8 @@ body {
     width: 300px;
     height: 300px;
     border-width: 10px;
+    background-size: 120%;
+    background-position: left -50px top -80px;
   }
 }
 @media (max-width: 836px) {
@@ -315,8 +319,10 @@ body {
   .projects-slide {
     flex-direction: column;
   }
-  .project-imager {
+  .project-image {
     margin-bottom: 46px;
+    max-width: 100%;
+    max-height: 100%;
   }
   .contacts-block {
     align-items: flex-start;
@@ -389,8 +395,9 @@ body {
   .project-paragraph {
     font-size: 14px;
   }
-  .contact-form {
+  .contacts-form {
     padding: 40px -19px;
+    margin-bottom: 60px;
   }
   .form-title {
     font-size: 15px;
